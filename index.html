@@ -4,9 +4,16 @@
     <title>Katalog Produk</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div id="modal-body"></div>
+    </div>
+</div>
 <body>
 
-<!-- HEADER -->
+
 <header>
     <h2 class="logo">MyShop</h2>
     <div class="search-box">
@@ -15,21 +22,11 @@
     </div>
 </header>
 
-<!-- BANNER -->
-<section class="banner">
-    <h1>Promo Spesial 🔥</h1>
-    <p>Diskon besar-besaran hari ini!</p>
-</section>
 
-<!-- KATEGORI -->
-<section class="kategori">
-    <div class="kat-item">📱 Elektronik</div>
-    <div class="kat-item">👕 Fashion</div>
-    <div class="kat-item">🏠 Rumah</div>
-    <div class="kat-item">💄 Kecantikan</div>
-</section>
 
-<!-- PRODUK -->
+
+
+
 <h2 class="judul">Produk Terbaru</h2>
 <div id="product-list" class="grid"></div>
 
